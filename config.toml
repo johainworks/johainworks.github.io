@@ -1,0 +1,31 @@
+baseURL = "https://johain.works/"
+languageCode = "en-US"
+title = "Johainworks"
+theme = "github-style"
+
+[params]
+  author = "Johainworks"
+  description = "hobbyist devloper and a wizard man"
+  github = "johainworks"
+  twitter = "johainworks"
+  email = "johain@courvix.com"
+  userStatusEmoji = "🧙‍♂️"
+  favicon = "/images/github.png"
+  location = "Vestland, Norway"
+  enableGitalk = false
+
+  [params.gitalk]
+    clientID = "Your client ID" 
+    clientSecret = "Your client secret" 
+    repo = "repo"
+    owner = "johainworks"
+    admin = "johainworks"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
