@@ -1,31 +1,82 @@
-baseURL = "https://johain.works/"
-languageCode = "en-US"
+baseURL = "https://example.com"
 title = "Johainworks"
-theme = "github-style"
+languageCode = "en"
+DefaultContentLanguage = "en"
+theme = "hugo.386"
+preserveTaxonomyNames = true
+
+tags = ["javascript", "typescript", "python", "csharp"]
+categories = ["Menju"]
 
 [params]
-  author = "Johainworks"
-  description = "hobbyist devloper and a wizard man"
-  github = "johainworks"
-  twitter = "johainworks"
-  email = "johain@courvix.com"
-  userStatusEmoji = "🧙‍♂️"
-  favicon = "/images/github.png"
-  location = "Vestland, Norway"
-  enableGitalk = false
+    mainpagetitle = "Johainworks"
+    mainpagesubtitle = "hobbyist developer and a wizard man."
+    mainpagedesc = "Hello, I'm a 16 year old hobbyist backend developer from Norway."
+    copyrightname = "JM Fergeau"
 
-  [params.gitalk]
-    clientID = "Your client ID" 
-    clientSecret = "Your client secret" 
-    repo = "repo"
-    owner = "johainworks"
-    admin = "johainworks"
-    id = "location.pathname"
-    labels = "gitalk"
-    perPage = 15
-    pagerDirection = "last"
-    createIssueManually = true
-    distractionFreeMode = false
+    copyrighturl = "https://johain.works"
+    showhugo = true
 
-[frontmatter]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+    twitter = "https://twitter.com/johainworks"
+    github = "https://github.com/johainworks"
+    gitlab = "https://gitlab.com/johainworks"
+
+    loadfastload = true
+    loadspeedfactor = 2.5
+    loadonepass = false
+
+[params.copyright]
+    name = "Johainworks"
+    url = "https://johain.works"
+    prefix = "[Theme](https://gitlab.com/maxlefou/hugo.386)"
+    suffix = "My personal website"
+
+[menu]
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About"       # A display name for the button
+    url = "/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 1         # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/post/"       # The path can lead to a content folder too.
+    weight = 3
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = true
+    simple = true
+
+  [privacy.twitter]
+    disabled = true
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = true
+    simple = true
+
+  [privacy.youtube]
+    disabled = true
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
