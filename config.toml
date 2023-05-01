@@ -11,7 +11,7 @@ categories = ["Menju"]
 [params]
     mainpagetitle = "Johainworks"
     mainpagesubtitle = "hobbyist developer and a wizard man."
-    mainpagedesc = "Hello, I'm a 16 year old hobbyist backend developer from Norway."
+    mainpagedesc = "Hey! I’m a 16-year-old hobbyist backend developer from Norway. Although I haven’t had the chance to work on many projects, I’m really passionate about programming and enjoy taking on challenging problems. I’m always learning and improving my skills, and I’m excited to see where this hobby will take me in the future. With dedication and hard work, I believe that I can achieve great things in the field of backend development."
     copyrightname = "JM Fergeau"
 
     copyrighturl = "https://johain.works"
