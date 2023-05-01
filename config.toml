@@ -21,7 +21,7 @@ categories = ["Menju"]
     github = "https://github.com/johainworks"
     gitlab = "https://gitlab.com/johainworks"
 
-    loadfastload = true
+    loadfastload = false
     loadspeedfactor = 2.5
     loadonepass = false
 
