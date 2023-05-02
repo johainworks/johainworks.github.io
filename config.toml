@@ -22,7 +22,7 @@ categories = ["Menju"]
     gitlab = "https://gitlab.com/johainworks"
 
     loadfastload = false
-    loadspeedfactor = 2.5
+    loadspeedfactor = 3
     loadonepass = true
 
 [params.copyright]
@@ -49,6 +49,12 @@ categories = ["Menju"]
     name = "Posts"
     url = "/post/"       # The path can lead to a content folder too.
     weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/" # The path can lead to a
+    weight = 4
 
 [taxonomies]
   category = "categories"
