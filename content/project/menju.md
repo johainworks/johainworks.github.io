@@ -24,7 +24,7 @@ Menju is a programmers dream utility providing project creation tools, easy game
 
 ## Downloading
 
-You can download the Menju application from our [Website](github.com/johainworks/Menju) or from the releases tab on our Github [Releases](github.com/johainworks/Menju/releases) page.
+You can download the Menju application from our [Website](https://github.com/johainworks/Menju) or from the releases tab on our Github [Releases](https://github.com/johainworks/Menju/releases) page.
 
 ## Contributing
 
